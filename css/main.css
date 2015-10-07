@@ -1,17 +1,18 @@
 .header {
   height: 80px;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E1E3DF; }
   .header .headLeft {
     float: left;
     width: 45%; }
     .header .headLeft .logo {
       font-size: 30px;
       display: inline-block;
-      margin: 10px;
+      margin: 20px 50px 20px 150px;
       color: #E46F31; }
     .header .headLeft .form {
       display: inline-block;
-      margin: 10px; }
+      margin: 10px 0px 20px 10px; }
 
 form {
   display: inline-block; }
@@ -21,13 +22,29 @@ input {
 
 .headRight {
   float: right;
-  width: 45%;
-  padding: 10px; }
-  .headRight .sell {
-    float: right; }
-  .headRight .register {
-    float: right; }
-  .headRight .signin {
-    float: right; }
+  width: 35%;
+  margin-top: 17px;
+  color: #3D92B6; }
   .headRight .cart {
-    float: right; }
+    display: inline-block;
+    border: 1px solid #B2B2B2;
+    margin-left: 40px;
+    padding: 20px 0 20px 20px;
+    text-align: center; }
+    .headRight .cart .sprite {
+      background: url("../images/cart.png") no-repeat 0 -1px;
+      background-size: 16px 16px;
+      width: 16px;
+      height: 13px; }
+  .headRight .register {
+    display: inline-block;
+    margin: 5px; }
+  .headRight .signin {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #3D92B6;
+    border-radius: 2px; }
+  .headRight .sell {
+    display: inline-block;
+    margin: 5px; }
