@@ -1,33 +1,40 @@
 .header {
   height: 80px;
   background-color: #FFFFFF;
-  border-bottom: 1px solid #E1E3DF; }
+  border-bottom: 1px solid #E1E3DF;
+  position: relative; }
   .header .headLeft {
     float: left;
     width: 45%; }
     .header .headLeft .logo {
-      font-size: 30px;
+      font-size: 45px;
+      font-family: times;
       display: inline-block;
-      margin: 20px 50px 20px 150px;
+      margin: 12px 50px 20px 200px;
       color: #E46F31; }
     .header .headLeft .form {
       display: inline-block;
       margin: 10px 0px 20px 10px; }
 
 form {
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 2px;
+  position: absolute;
+  top: 19px; }
 
 input {
-  display: inline-block; }
+  display: inline-block;
+  line-height: 2em; }
 
 .three {
   float: right;
   height: 100%;
   list-style: none;
-  margin-right: 100px;
-  margin-top: -7px; }
+  margin-right: 30px;
+  margin-top: 20px; }
   .three li {
-    display: inline-block; }
+    display: inline-block;
+    color: #3D91B2; }
 
 .register {
   margin: 5px;
@@ -44,14 +51,35 @@ input {
   margin: 5px;
   height: 20px; }
 
+.cartSprite {
+  float: right;
+  margin-right: 200px; }
+
+#searchBtn {
+  background-color: #56A7C1;
+  color: white;
+  margin: 0;
+  padding: 1px 7px; }
+
+#search {
+  margin-right: -6px; }
+
+.sprite {
+  float: right;
+  background: url("../images/cart.png") no-repeat 0 -1px;
+  background-size: 20px 20px;
+  width: 22px;
+  height: 20px;
+  margin: 13px 16px -16px -27px;
+  padding: 0px; }
+
 .cart {
+  display: inline-block;
+  clear: both;
   border-left: 1px solid #B2B2B2;
-  margin-left: 40px;
-  padding: 20px 0 20px 20px;
+  margin: 22px 0px 0px 0px;
+  padding: 17px 0 2px 20px;
   text-align: center; }
-  .cart .sprite {
-    background: url("../images/cart.png") no-repeat 0 -1px;
-    background-size: 16px 16px;
-    width: 16px;
-    height: 13px;
-    margin-bottom: 7px; }
+  .cart span {
+    width: 100%;
+    color: #3D91B2; }
