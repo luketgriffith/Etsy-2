@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meerkat</title>
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <div class="headLeft">
+      <div class="logo">
+        <span>Etsy</span>
+      </div>
+      <div class="form">
+        <form action="" method="post">
+          <label for="search"></label>
+            <input id='search' type="text" name="name">
+            <input type="submit" value="Search">
+        </form>
+      </div>
+      <!-- <button class="btn">Search</button> -->
+    </div>
+    <div class="headRight">
+      <div class="sell"><span>Sell on Etsy</span></div>
+      <div class="register"><span>Register</span></div>
+      <div class="signin"><span>Sign In</span></div>
+      <div class="cart"><span>Cart</span></div>
+    </div>
+  </div><!--Header Tag End-->
+  <div class="categories">
+    <ul class= 'categories list'>
+      <li>Clothing & Accessories</li>
+      <li>Jewelry</li>
+      <li>Craft Supplies & Tools</li>
+      <li>Weddings</li>
+      <li>Entertainment</li>
+      <li>Home and Living</li>
+      <li>Kids & Baby</li>
+      <li>Vintage</li>
+    </ul>
+  </div><!--Categories End-->
+
+  
+
+
+
+
+
+<script type="text/template" id='itemTemplate'>
+  <p><%=title %></p>
+  <p><%=price %></p>
+  <img src='<%=Images[0].url_170x135 %>'>
+  <hr>
+</script>
+
+
+
+
+
+
+
+  
+
+
+</div>
+  
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src='bower_components/underscore/underscore.js'></script>
+  <script src='js/etsy.js'></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

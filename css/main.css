@@ -1,0 +1,33 @@
+.header {
+  height: 80px;
+  background-color: #FFFFFF; }
+  .header .headLeft {
+    float: left;
+    width: 45%; }
+    .header .headLeft .logo {
+      font-size: 30px;
+      display: inline-block;
+      margin: 10px;
+      color: #E46F31; }
+    .header .headLeft .form {
+      display: inline-block;
+      margin: 10px; }
+
+form {
+  display: inline-block; }
+
+input {
+  display: inline-block; }
+
+.headRight {
+  float: right;
+  width: 45%;
+  padding: 10px; }
+  .headRight .sell {
+    float: right; }
+  .headRight .register {
+    float: right; }
+  .headRight .signin {
+    float: right; }
+  .headRight .cart {
+    float: right; }
