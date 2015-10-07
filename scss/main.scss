@@ -24,16 +24,40 @@ form{
 input{
   display: inline-block;
 }
-  .headRight{
-    float: right;
-    width: 35%;
-    
-    margin-top: 17px;
-    color: #3D92B6;
-    // height:80x;
-    .cart{
-      display: inline-block;
-      border: 1px solid #B2B2B2;
+
+      
+
+.three{
+      float: right;
+      height: 100%;
+      list-style: none;
+      margin-right: 100px;
+      margin-top: -7px;
+      li{
+        display: inline-block;
+      }
+}
+.register{
+      
+      margin: 5px;
+      height: 20px;
+}
+.signin{
+      
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #3D92B6;
+      border-radius: 2px;
+      height: 20px;
+}
+.sell{
+      
+      margin: 5px;
+      height: 20px;
+    }
+.cart{
+      
+      border-left: 1px solid #B2B2B2;
       margin-left: 40px;
       
       padding: 20px 0 20px 20px;;
@@ -43,20 +67,5 @@ input{
           background-size: 16px 16px;
           width: 16px;
           height: 13px;
-        }
-      
-      
-    }.register{
-      display: inline-block;
-      margin: 5px;
-    }.signin{
-      display: inline-block;
-      margin: 5px;
-      padding: 5px;
-      border: 1px solid #3D92B6;
-      border-radius: 2px;
-    }.sell{
-      display: inline-block;
-      margin: 5px;
-    }
+          margin-bottom: 7px;}
 }

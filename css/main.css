@@ -20,31 +20,38 @@ form {
 input {
   display: inline-block; }
 
-.headRight {
+.three {
   float: right;
-  width: 35%;
-  margin-top: 17px;
-  color: #3D92B6; }
-  .headRight .cart {
-    display: inline-block;
-    border: 1px solid #B2B2B2;
-    margin-left: 40px;
-    padding: 20px 0 20px 20px;
-    text-align: center; }
-    .headRight .cart .sprite {
-      background: url("../images/cart.png") no-repeat 0 -1px;
-      background-size: 16px 16px;
-      width: 16px;
-      height: 13px; }
-  .headRight .register {
-    display: inline-block;
-    margin: 5px; }
-  .headRight .signin {
-    display: inline-block;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #3D92B6;
-    border-radius: 2px; }
-  .headRight .sell {
-    display: inline-block;
-    margin: 5px; }
+  height: 100%;
+  list-style: none;
+  margin-right: 100px;
+  margin-top: -7px; }
+  .three li {
+    display: inline-block; }
+
+.register {
+  margin: 5px;
+  height: 20px; }
+
+.signin {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #3D92B6;
+  border-radius: 2px;
+  height: 20px; }
+
+.sell {
+  margin: 5px;
+  height: 20px; }
+
+.cart {
+  border-left: 1px solid #B2B2B2;
+  margin-left: 40px;
+  padding: 20px 0 20px 20px;
+  text-align: center; }
+  .cart .sprite {
+    background: url("../images/cart.png") no-repeat 0 -1px;
+    background-size: 16px 16px;
+    width: 16px;
+    height: 13px;
+    margin-bottom: 7px; }
