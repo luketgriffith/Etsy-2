@@ -152,16 +152,18 @@
 
 
 <div class="heynow">
-  <h3 class='numberResults'>All Categories:  </h3>
+  <h3 class='numberResults'>               All Categories:  </h3>
 </div>
 <div class='allstar'></div>
 
 <script type="text/template" id='itemTemplate'>
   <div class= 'meow'>
-  <a href='#'><img src='<%=Images[0].url_170x135 %>' class= 'itemImg'> </a>
-  <a href= '#'><p class= 'itemTitle'><%=title %></p>
+  <a href=<%= url %>><img src='<%=Images[0].url_170x135 %>' class= 'itemImg'></a>
+  <a href= <%= url %>><p class= 'itemTitle'><%=title %></p>
   <p class='itemPrice'>$<%=price %> USD</p></a>
+   <a href=<%= Shop.url %>><p class='shopName'><%=Shop.shop_name%></p></a>
   </div>
+
   
 </script>
 
