@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+<div class="mainBody">
 <div class="wrapper">
   <div class="header">
     <div class="headLeft">
@@ -152,13 +152,58 @@
 
 <div class="meerkats">
     <div class="heynow">
-      <p class='numberResults'>All Categories > </p> 
-      <p class="keyword"></p>
-      <p class='allstar'></p>  
+      <ul>
+        <li class='numberResults'>All Categories > </li> 
+        <li class="keyword"></li>
+        <li class='allstar'></li>  
+      </ul> 
+      <div class="sortby">
+        <p>Sort by:</p>
+        <select name="select" class="sort">
+          <option value="value1">Price</option> 
+          <option value="value2" selected>Relevancy</option>
+          <option value="value3">Wat</option>
+        </select>
+      </div>
+  </div>
+</div>
+</div>
+<div class="footerMain">
+  <div class="footer1">
+    
+    <p class="shops">Looking for shops? We got a couple:</p> 
+      <div class="numberLine">
+        <div class='numbers'><</div> 
+        <div class='numbers'>1</div> 
+        <div class='numbers'>2</div>
+        <div class='numbers'>3</div> 
+        <div class='numbers'>4</div> 
+        <div class='numbers'>5</div> 
+        <div class='numbers'>6</div> 
+        <div class='numbers'>7</div> 
+        <div class='numbers'>8</div> 
+        <div class='numbers'>...</div> 
+        <div class='numbers'>24</div>  
+        <div class='numbers'>></div> 
+       </div> 
     </div>
+  <div class="footer2">
+    <p>Get top trends and fresh editors' picks in your inbox with Etsy Finds.
+    </p>
+    <form action="" method="post" class='formA'>
+          <label for="search"></label>
+            <input id='search' placeholder='Enter your email' type="text" name="name">
+            <input id='searchBtn' type="submit" value="Subscribe">
+    </form>
+  </div>
+
+</div>
 
 
+  
 
+
+</div>
     <script type="text/template" id='itemTemplate'>
       <div class= 'meow'>
           <a href=<%= url %>><img src='<%=Images[0].url_170x135 %>' class= 'itemImg'></a>
@@ -166,20 +211,7 @@
           <p class='itemPrice'>$<%=price %> USD</p></a>
            <a href=<%= Shop.url %>><p class='shopName'><%=Shop.shop_name%></p></a>
       </div>
-
-  
-</script> 
-
-</div>
-
-
-
-
-
-  
-
-
-</div>
+    </script> 
   
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src='bower_components/underscore/underscore.js'></script>
