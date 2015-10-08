@@ -233,3 +233,28 @@ input {
 .ship select {
   width: 175px;
   margin: 5px 8px 20px 8px; }
+
+.meow {
+  display: inline-block;
+  width: 220px;
+  margin: 20px;
+  margin-top: 10px;
+  border: 1px solid #E1E3DF; }
+  .meow img {
+    margin: 25px 25px; }
+  .meow .itemTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    font-size: 12px;
+    margin: 0px 10px; }
+  .meow a {
+    text-decoration: none;
+    color: #757575; }
+
+.meow .itemPrice {
+  float: right;
+  font-size: 10px;
+  color: green;
+  margin: 4px; }

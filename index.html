@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
 <div class="wrapper">
   <div class="header">
     <div class="headLeft">
@@ -136,30 +137,32 @@
           <div class="ship">
             <h4 class="title">Ship To</h4>
             <select name="select">
-  <option value="value1">Your Mom</option> 
-  <option value="value2" selected>United States</option>
-  <option value="value3">Wat</option>
-</select>
+              <option value="value1">Your Mom</option> 
+              <option value="value2" selected>United States</option>
+              <option value="value3">Wat</option>
+            </select>
           </div>
-
         </div>
       </div> <!--Refine-->
-          
-        </div><!--LeftForm-->
-
-    
+    </div><!--LeftForm-->
   </div><!--End of LeftSide Nav-->
 </div><!--Part2-->  
 
 
 
 
+<div class="heynow">
+  <h3 class='numberResults'>All Categories:  </h3>
+</div>
+<div class='allstar'></div>
 
 <script type="text/template" id='itemTemplate'>
-  <p><%=title %></p>
-  <p><%=price %></p>
-  <img src='<%=Images[0].url_170x135 %>'>
-  <hr>
+  <div class= 'meow'>
+  <a href='#'><img src='<%=Images[0].url_170x135 %>' class= 'itemImg'> </a>
+  <a href= '#'><p class= 'itemTitle'><%=title %></p>
+  <p class='itemPrice'>$<%=price %> USD</p></a>
+  </div>
+  
 </script>
 
 
