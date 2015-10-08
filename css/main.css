@@ -282,9 +282,10 @@ input {
   width: 220px;
   margin: 20px;
   margin-top: 10px;
-  border: 1px solid #E1E3DF; }
+  border: 1px solid #E1E3DF;
+  position: relative; }
   .meow img {
-    margin: 25px 25px; }
+    width: 100%; }
   .meow .itemTitle {
     white-space: nowrap;
     overflow: hidden;
@@ -295,6 +296,28 @@ input {
   .meow a {
     text-decoration: none;
     color: #757575; }
+
+.meow:hover:before {
+  content: '';
+  display: inline-block;
+  background-color: white;
+  background-image: url("../images/heart.png");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.meow:hover:after {
+  content: '';
+  display: inline-block;
+  background-color: white;
+  background-image: url("../images/hamburger.png");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 35px; }
 
 .meow .itemPrice {
   float: right;
@@ -347,3 +370,28 @@ input {
   text-align: center;
   border-bottom: 1px solid #E1E3DF;
   padding-bottom: 20px; }
+
+.footer3 {
+  margin-left: 356px; }
+
+.bottomLists {
+  float: left;
+  font-size: 12px; }
+  .bottomLists ul {
+    list-style: none;
+    color: #69A6BF; }
+  .bottomLists li {
+    padding: 5px; }
+
+.bottomLists button {
+  background-color: #69A6BF;
+  margin-left: 42px; }
+
+.bottomLists p {
+  font-size: 12px;
+  width: 130px;
+  margin-left: 42px; }
+
+.sell {
+  margin: 0px;
+  color: black; }
