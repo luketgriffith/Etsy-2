@@ -150,24 +150,27 @@
 
 
 
+<div class="meerkats">
+    <div class="heynow">
+      <p class='numberResults'>All Categories > </p> 
+      <p class="keyword"></p>
+      <p class='allstar'></p>  
+    </div>
 
-<div class="heynow">
-  <h3 class='numberResults'>               All Categories:  </h3>
-</div>
-<div class='allstar'></div>
 
-<script type="text/template" id='itemTemplate'>
-  <div class= 'meow'>
-  <a href=<%= url %>><img src='<%=Images[0].url_170x135 %>' class= 'itemImg'></a>
-  <a href= <%= url %>><p class= 'itemTitle'><%=title %></p>
-  <p class='itemPrice'>$<%=price %> USD</p></a>
-   <a href=<%= Shop.url %>><p class='shopName'><%=Shop.shop_name%></p></a>
-  </div>
+
+    <script type="text/template" id='itemTemplate'>
+      <div class= 'meow'>
+          <a href=<%= url %>><img src='<%=Images[0].url_170x135 %>' class= 'itemImg'></a>
+          <a href= <%= url %>><p class= 'itemTitle'><%=title %></p>
+          <p class='itemPrice'>$<%=price %> USD</p></a>
+           <a href=<%= Shop.url %>><p class='shopName'><%=Shop.shop_name%></p></a>
+      </div>
 
   
-</script>
+</script> 
 
-
+</div>
 
 
 
