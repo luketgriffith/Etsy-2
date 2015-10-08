@@ -115,41 +115,48 @@ input {
   float: left; }
   .leftNav h4 {
     color: #555555;
-    font-size: 15px; }
+    font-size: 15px;
+    padding: 4px; }
 
 .navbox {
   background-color: #FFFFFF;
   border: 1px solid #E1E3DF; }
-
-.nav {
-  list-style: none;
-  background-color: #FFFFFF;
-  color: #69A6BF;
-  font-size: 12px;
-  padding-left: 0px;
-  margin-top: 4px;
-  margin-left: 24px; }
-  .nav li {
-    padding: 3px; }
-
-.title {
-  margin-left: 2px;
-  color: black;
-  font-weight: bold;
-  padding: 2px; }
+  .navbox .title {
+    margin-left: 2px;
+    color: black;
+    font-weight: bold;
+    padding: 2px; }
+  .navbox .nav {
+    list-style: none;
+    background-color: #FFFFFF;
+    color: #69A6BF;
+    font-size: 12px;
+    padding-left: 0px;
+    margin-top: 4px;
+    margin-left: 24px; }
+    .navbox .nav li {
+      padding: 3px; }
 
 .refineItem {
   background-color: #FFFFFF; }
+  .refineItem span {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px; }
   .refineItem .itemType {
     list-style: none;
-    background-color: #FFFFFF; }
+    background-color: #FFFFFF;
+    padding-left: 24px;
+    color: #69A6BF;
+    font-size: 12px;
+    border-bottom: 1px solid #E1E3DF; }
+    .refineItem .itemType li {
+      padding: 3px; }
 
 .leftForm {
-  border: 1px solid black;
   background-color: #FFFFFF; }
-
-.formy {
-  display: inline-block; }
-
-.dollars {
-  width: 60px; }
+  .leftForm .formy {
+    display: inline-block; }
+  .leftForm .dollars {
+    width: 60px; }

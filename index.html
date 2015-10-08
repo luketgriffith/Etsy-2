@@ -75,19 +75,27 @@
           <li>Toys & Games</li>
           <li>Pet Supplies</li>
         </ul>
-     </div>   
-    <div class="refine">
-      <h4>Refine Your Search</h4>
+     </div> 
+    <div class="refineBox">   
+      <div class="refine">
+        <h4>Refine Your Search</h4>
         <div class="refineItem">
-        <span>Item Type</span>
-          <ul class="itemType left">
-            <li>All Items</li>
-            <li>Handmade</li>
-            <li>Vintage</li>
-          </ul>
-        </div>
-    </div> <!--Refine-->
-        <div class="leftForm">
+          <span class='title'>Item Type</span>
+                  <ul class="itemType">
+                    <li><label for="option-two" class="pure-radio">
+                <input id="option-two" type="radio" name="optionsRadios" value="option1" checked>
+                All Items
+            </label></li>
+                    <li><label for="option-two" class="pure-radio">
+                <input id="option-two" type="radio" name="optionsRadios" value="option1" checked>
+                Handmade
+            </label></li>
+                    <li><label for="option-two" class="pure-radio">
+                <input id="option-two" type="radio" name="optionsRadios" value="option1" checked>
+                Vintage
+            </label></li>
+                  </ul>
+                   <div class="leftForm">
           <h4>Price</h4>
               <form action='' class="formy">
                   <fieldset>
@@ -96,6 +104,10 @@
                       <button type="submit" class="refineBtn">Search</button>
                   </fieldset>
               </form>
+          </div> 
+        </div>
+      </div> <!--Refine-->
+          
         </div><!--LeftForm-->
 
     
