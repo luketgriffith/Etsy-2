@@ -140,11 +140,12 @@ input{
 .navbox{
   background-color: #FFFFFF;
   border: 1px solid #E1E3DF;
+  padding-top: 10px;
     .title{
     margin-left: 2px;
-    color: black;
+    color: #555555;
     font-weight: bold;
-    padding: 2px;
+    padding: 5px 5px;
   }.nav{
   list-style: none;
   background-color: #FFFFFF;
@@ -155,6 +156,9 @@ input{
   margin-left: 24px;
   li{
     padding: 3px;
+  } a{
+    text-decoration: none;
+    color: #69A6BF;
   }
 }
 }
@@ -163,8 +167,11 @@ input{
 
 .refineItem{
   background-color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   span{ 
-    color: black;
+    color: #555555;
     font-size: 15px;
     font-weight: bold;
     padding: 4px;
@@ -173,6 +180,7 @@ input{
   list-style: none;
   background-color: #FFFFFF;
   padding-left: 24px;
+  padding-bottom: 12px;
   color: #69A6BF;
   font-size: 12px;
   border-bottom: 1px solid #E1E3DF;
@@ -187,15 +195,84 @@ input{
     background-color: #FFFFFF;
     .formy{
     display: inline-block;
+    border-bottom: 1px solid #E1E3DF;
 
-  } .dollars{
+  } fieldset{
+    border: none;
+  }
+  .dollars{
     width: 60px;
   }
 }
-
-
-
-
+.colors{
+   background-color: #FFFFFF;
+   border-bottom: 1px solid #E1E3DF;
+   padding-bottom: 20px;
+   h4{
+    margin: 6px 4px;
+   }
+  .color{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border: 1px solid #E1E3DF;
+    margin: 3px;
+    padding-left: 4px;
+    border-radius: 4px;
+  }
+  .red{
+    background-color:red;
+  }.orange{
+    background-color: orange;
+  }.yellow{
+    background-color: yellow;
+  }.green{
+    background-color: green;
+  }.blue{
+    background-color: blue;
+  }.purple{
+    background-color: purple;
+  }.black{
+    background-color: black;
+  }.white{
+    background-color: white;
+  }
+}
+.options{
+  color: #69A6BF;
+  border-bottom: 1px solid #E1E3DF;
+  padding-bottom: 20px;
+  label{
+    display: block;
+    padding-left: 10px;
+  }
+}
+.location{
+  border-bottom: 1px solid #E1E3DF;
+  padding-bottom: 20px;
+  label{
+    display: block;
+    color: #69A6BF;
+    padding-left: 10px;
+    margin: 5px;
+  } .label2{
+    margin-bottom: 8px;
+  }
+  span{
+    color: #69A6BF;
+    font-size: 11px;
+    margin-top: 8px;
+    padding-left: 8px;
+  }
+}
+.ship{
+  h4{
+    margin: 5px;
+  } select{
+    width: 175px;
+    margin: 5px 8px 20px 8px;
+  }
+}
 
 
    
