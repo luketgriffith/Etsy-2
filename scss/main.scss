@@ -1,3 +1,9 @@
+body{
+  background-color: #F5F5F1;
+}
+.wrapper{
+  background-color: #FFFFFF;
+}
 .header{
   height: 80px;
   background-color: #FFFFFF;
@@ -20,11 +26,11 @@
       }
     }
   }
-form{
+.form{
   display: inline-block;
   border-radius: 2px;
   position: absolute;
-  top: 19px;
+  top: 10px;
 }
 input{
   display: inline-block;
@@ -96,5 +102,87 @@ input{
         color: #3D91B2;
       }
     }
-      
-        
+//**********************Navigation******************//
+.categories{
+  // width: 100%;
+  border-bottom: 1px solid #E1E3DF;
+  height: 40px;
+  background-color: #FFFFFF;
+}  
+.list{
+  list-style: none;
+  background-color: #FFFFFF;
+  padding: 0;
+  display: block;
+  margin-top: 20px;
+  margin-left: 185px;
+  white-space: nowrap;
+
+  li{
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 0 16px;
+    font-size: 15px;
+    color: #757575;
+  }
+}    
+//****************Left Nav*********************//
+
+.leftNav{
+  margin-left: 200px;
+  float: left;
+   h4{
+    color: #555555;
+    font-size: 15px;
+  }
+}
+.navbox{
+  background-color: #FFFFFF;
+  border: 1px solid #E1E3DF;
+}
+  .nav{
+  list-style: none;
+  
+  background-color: #FFFFFF;
+  color: #69A6BF;
+  font-size: 12px;
+  padding-left: 0px;
+  margin-top: 4px;
+  margin-left: 24px;
+  li{
+    padding: 3px;
+  }
+  
+}
+.title{
+  margin-left: 2px;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.refineItem{
+  background-color: #FFFFFF;
+  .itemType{
+  list-style: none;
+  background-color: #FFFFFF;
+  }
+}
+.leftForm{
+  border: 1px solid black;
+  background-color: #FFFFFF;
+ 
+}
+.formy{
+  display: inline-block;
+
+} .dollars{
+  width: 60px;
+}
+
+
+
+
+
+   
+
