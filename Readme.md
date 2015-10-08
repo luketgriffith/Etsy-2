@@ -1,3 +1,2 @@
-## This is a Readme
+## Recreating an Etsy page using a real Etsy API
 
-> You should probably update me.
